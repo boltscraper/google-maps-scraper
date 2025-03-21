@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bolt's Google Maps Scraper Free:)</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <div id="alert-container"></div>
+    <div class="header">
+        <div class="header-left">
+            <img src="../assets/logo.png" alt="Logo" class="logo">
+            <h1 id="dynamicText">Bolt's Google Maps Scraper Free:)</h1>
+        </div>
+        <div class="link-container">
+            <h4>
+                <span id="link1" class="author-link" data-tooltip="Bolt Scraper">
+                    <img src="../assets/icons/dboltscraper.png" alt="Bolt Scraper">
+                </span>
+            </h4>
+            <h4>
+                <span id="link2" class="author-link" data-tooltip="Facebook Pages Scraper">
+                    <img src="../assets/icons/facebook.png" alt="Facebook Pages Scraper">
+                </span>
+            </h4>
+            <h4>
+                <span id="link3" class="author-link" data-tooltip="Yellow Pages Scraper">
+                    <img src="../assets/icons/yellowpages.png" alt="Yellow Pages Scraper">
+                </span>
+            </h4>
+            <h4>
+                <span id="link4" class="author-link" data-tooltip="Website Scraper">
+                    <img src="../assets/icons/Website.png" alt="Website Scraper">
+                </span>
+            </h4>
+            <h4>
+                <span id="tutorial-btn" class="icon-link" data-tooltip="Watch Tutorial">
+                    <img src="../assets/icons/dyoutube.png" alt="Tutorial">
+                </span>
+            </h4>
+            <h4>
+                <span id="wa-btn" class="icon-link" data-tooltip="Get Support">
+                    <img src="../assets/icons/dwhatsapp.png" alt="whatsapp">
+                </span>
+            </h4>
+
+           </h4>
+                <span id="pro-btn" class="icon-link" data-tooltip="Get Pro Version">
+                    <img src="../assets/icons/dcrown.png" alt="Pro">
+                </span>
+            </h4>
+            <h4>
+                <span class="free-badge" data-tooltip="Free Version">
+                    FREE
+                </span>
+            </h4>
+        
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="video-close">&times;</span>
+            <iframe 
+                id="tutorial-video"
+                width="800" 
+                height="450" 
+                src="" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Pro Features Modal -->
+    <div id="pro-modal" class="video-modal">
+        <div class="video-modal-content pro-content">
+            <span class="video-close pro-close">&times;</span>
+            <h2>Pro Version Features</h2>
+            <div class="pro-features">
+                <ul>
+                    <li>&#x1F4E7; 2 Emails per Business</li>
+                    <li>&#x1F517; Social Links (FB, IG, LinkedIn, YT, TikTok)</li>
+                    <li>&#x1F3AF; Multiple Keyword Scraping</li>
+                    <li>&#x2764; Unlimited Scraping</li>
+                    <li>&#x1F4BE; Unlimited Export to Copy, CSV & Excel</li>
+                    <li>&#x2B50; Free Updates + Support</li>
+                </ul>
+                <button id="get-pro-btn" class="pro-buy-btn">Get Pro Version</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls-section">
+
+        <div class="input-group">
+            <div class="input-field">
+                <label for="keyword">Search Keyword:</label>
+                <input type="text" id="keyword" placeholder="e.g. roofing in austin, plumbers in houston" value="">
+            </div>
+            <div class="input-field">
+                <label for="pages">Number of Pages:</label>
+                <input type="text" id="pages" value="3">
+            </div>
+            <div class="input-field checkbox-field">
+                <label for="scrapeAll">
+                    <input type="checkbox" id="scrapeAll" checked>
+                    Scrape All Pages
+                </label>
+            </div>
+        </div>
+        <div class="button-group">
+            <button id="scrapeButton">Scrape Data</button>
+            <button id="copyButton">Copy to Clipboard</button>
+            <button id="csvButton">Download CSV</button>
+            <button id="excelButton">Download Excel</button>
+        </div>
+    </div>
+
+    <div class="stats-info">
+        <p><strong>Businesses</strong><span id="businessCount">0</span></p>
+        <p><strong>Websites</strong><span id="websiteCount">0</span></p>
+        <p><strong>Progress</strong><span id="progress">0%</span></p>
+        <p class="usage-stats">
+            <strong>Daily Usage</strong>
+            <span id="usageCount">0/1</span>
+            <span id="timeRemaining" class="time-remaining"></span>
+        </p>
+    </div>
+
+    <!-- Usage Limit Modal -->
+    <div id="limit-modal" class="video-modal">
+        <div class="video-modal-content pro-content">
+            <span class="video-close limit-close">&times;</span>
+            <h2>Daily Limit Reached! &#x1F512;</h2>
+            <div class="limit-info">
+                <p>You've reached your daily scraping limit.</p>
+                <p class="time-left">Next scrape available in: <span id="modalTimeRemaining"></span></p>
+                <p class="upgrade-msg">Upgrade to Pro for:</p>
+                <ul>
+                    <li>&#x1F4E7; 2 Emails per Business</li>
+                    <li>&#x1F517; Social Links (FB, IG, LinkedIn, YT, TikTok)</li>
+                    <li>&#x1F3AF; Multiple Keyword Scraping</li>
+                    <li>&#x2764; Unlimited Scraping</li>
+                    <li>&#x1F4BE; Unlimited Export to Copy, CSV & Excel</li>
+                    <li>&#x2B50; Free Updates + Support</li>
+                </ul>
+                <button id="upgrade-btn" class="pro-buy-btn">Upgrade to Pro</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="results-section" id="results">
+        <div class="status-text" id="statusText"></div>
+        <div class="table-container">
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Rating</th>
+                        <th>Reviews</th>
+                        <th>Years</th>
+                        <th>Location</th>
+                        <th>Services</th>
+                        <th>Phone</th>
+                        <th>Website</th>
+                        <th>Address</th>
+                        <th>Directions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="../src/scraper.js"></script>
+    <script src="../src/main.js"></script>
+    
+    <!-- Go to Top Button -->
+    <button class="go-to-top" id="goToTop" aria-label="Go to top">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+            <path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <div class="version-notification">
+        &#9888; Dark Mode Free Version: Email addresses, social media links and Multiple Keyword Scraping are only available in the Pro version.
+    </div>
+</body>
+</html> 

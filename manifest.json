@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Bolt's Google Maps Scraper Free",
+  "version": "1.0",
+  "description": "Scrapes business data from Google Local Services",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "clipboardWrite",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.google.com/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/icons/icon.png",
+      "48": "assets/icons/icon.png",
+      "128": "assets/icons/icon.png"
+    },
+    "default_title": "Bolt's Google Maps Scraper Free:)"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "icons": {
+    "16": "assets/icons/icon.png",
+    "48": "assets/icons/icon.png",
+    "128": "assets/icons/icon.png"
+  }
+} 
