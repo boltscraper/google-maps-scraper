@@ -1,8 +1,8 @@
-# 🆓 FREE Google Maps Scraper - Extract Unlimited Business Leads! 
+# FREE Google Maps Scraper - Extract Unlimited Business Leads! 
 
-The **100% FREE** and most powerful Chrome extension to extract business data from Google Maps in 2024! Download now and start generating leads in minutes!
+The **100% FREE** and most powerful Chrome extension to extract business data from Google Maps in 2025! Download now and start generating leads in minutes!
 
-![Bolt's Google Maps Scraper](assets/screenshot.png)
+![Bolt's Google Maps Scraper](screenshot.png)
 
 ## ⭐ Why Choose Our FREE Google Maps Scraper?
 
@@ -27,7 +27,7 @@ The **100% FREE** and most powerful Chrome extension to extract business data fr
 - ♾️ No daily usage limits
 - 🛡️ Priority support
 
-[TRY PRO VERSION RISK-FREE](https://boltscraper.com/google-maps-scraper) (100% Money-Back Guarantee)
+[TRY PRO VERSION](https://boltscraper.com/google-maps-scraper) 
 
 ## 📥 Quick Installation (Takes Less Than 60 Seconds!)
 
@@ -91,7 +91,6 @@ We offer a complete suite of **FREE** data extraction tools:
 Our support team is always ready to help:
 - Visit [boltscraper.com](https://boltscraper.com/contact-us)
 - Email: support@boltscraper.com
-- Join our [FREE Discord community](https://discord.gg/boltscraper)
 
 ## ⚖️ Legal Information
 
