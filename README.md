@@ -1,6 +1,6 @@
 # FREE Google Maps Scraper - Extract Unlimited Business Leads! 
 
-The **100% FREE** and most powerful Chrome extension to extract business data from Google Maps in 2025! Download now and start generating leads in minutes!
+The **100% FREE** and most powerful Chrome extension to extract business data from Google Maps in 2026! Download now and start generating leads in minutes!
 
 ![Bolt's Google Maps Scraper](screenshot.png)
 
@@ -51,17 +51,19 @@ The **100% FREE** and most powerful Chrome extension to extract business data fr
 
 ## 🎬 Watch How Easy It Is! (VIDEO TUTORIALS)
 
-- [How to Use Our FREE Google Maps Scraper](https://www.youtube.com/watch?v=k034WMELOiI)
-- [60-Second Installation Guide](https://www.youtube.com/watch?v=Pv_1JtS_ojw)
+- [How to Use Our FREE Google Maps Scraper](https://www.youtube.com/watch?v=8c6rrE7uTYA)
+- [60-Second Installation Guide](https://youtu.be/cGxG52FXLCs?si=3w_LZpkZF5rYfLlK)
 
-<a href="https://www.youtube.com/watch?v=k034WMELOiI">
-  <img src="https://img.youtube.com/vi/k034WMELOiI/maxresdefault.jpg" alt="FREE Google Maps Scraper Tutorial" width="600">
+<a href="https://www.youtube.com/watch?v=MsuTN7R73BI&t=60s">
+  <img src="https://boltscraper.com/images/1.webp" alt="FREE Google Maps Scraper Tutorial" width="600">
 </a>
 
 ## 🔄 Try Our Other FREE Scrapers!
 
 We offer a complete suite of **FREE** data extraction tools:
 
+- **[FREE Email Extracor](https://boltscraper.com/email-extractor)** - Extract email addresses from any webpage with ease!
+- **[FREE Bing Maps Scraper](https://boltscraper.com/bing-maps-scraper)** - Extract business data from Bing Maps with our powerful Chrome extension!
 - **[FREE Facebook Pages Scraper](https://boltscraper.com/facebook-scraper)** - Extract business data from Facebook Pages without limits!
 - **[FREE Yellow Pages Scraper](https://boltscraper.com/yellow-pages-scraper)** - Get unlimited business listings from YellowPages instantly!
 - **[FREE Website Scraper](https://boltscraper.com/website-scraper)** - Extract data from ANY website with our powerful tool!
